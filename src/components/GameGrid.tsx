@@ -12,8 +12,7 @@ const GameGrid = () => {
       {error && <Text>{error}</Text>}
       <SimpleGrid
         columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
-        spacingY={10}
-        justifyContent="Center"
+        spacing={3}
         padding="10px"
       >
         {isLoading &&
