@@ -23,8 +23,8 @@ const GenresList = ({ onSelectGenre, selectedGenre }: Props) => {
           <ListItem
             key={genre.id}
             padding="5px 5px"
-            backgroundColor={genre.id === selectedGenre?.id ? "#ffffff29" : ""}
-            _hover={{ backgroundColor: "#ffffff39" }}
+            backgroundColor={genre.id === selectedGenre?.id ? "#ffffff14" : ""}
+            _hover={{ backgroundColor: "#ffffff29" }}
             borderRadius={8}
             onClick={() => onSelectGenre(genre)}
             cursor="pointer"
