@@ -6,13 +6,8 @@ import { Genre } from "./hooks/useGenres";
 import { useState } from "react";
 import PlatformSelector from "./components/PlatformSelector";
 import { Platforms } from "./hooks/usePlatforms";
-import { Platforms } from "./hooks/usePlatforms";
-
 function App() {
   const [selectedGenre, setSelectedGenre] = useState<Genre | null>(null);
-  const [selectedPlatform, setSelectedPlatform] = useState<Platforms | null>(
-    null
-  );
   const [selectedPlatform, setSelectedPlatform] = useState<Platforms | null>(
     null
   );
